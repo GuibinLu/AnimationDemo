@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +15,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="动画练习" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLV-3a-vEc">
+                                <rect key="frame" x="144" y="66" width="313" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="QsY-i8-TPs"/>
+                                    <constraint firstAttribute="width" constant="313" id="bUa-fP-NTF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="健一网-路贵斌" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wba-mJ-bZL">
+                                <rect key="frame" x="177" y="195" width="246" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="ijs-HY-2PF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wba-mJ-bZL" firstAttribute="centerX" secondItem="cLV-3a-vEc" secondAttribute="centerX" id="K1H-HS-Cvs"/>
+                            <constraint firstItem="wba-mJ-bZL" firstAttribute="top" secondItem="cLV-3a-vEc" secondAttribute="bottom" constant="8" symbolic="YES" id="OTJ-wG-9Wc"/>
+                            <constraint firstItem="cLV-3a-vEc" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="46" id="o7B-w1-xIT"/>
+                            <constraint firstItem="cLV-3a-vEc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pEB-Y4-syh"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="wba-mJ-bZL" secondAttribute="bottom" constant="342" id="qn3-dH-uEH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

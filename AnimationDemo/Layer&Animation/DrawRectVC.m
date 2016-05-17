@@ -34,7 +34,7 @@
     self.waterView.percentum = 0.5;
     self.waterView.alpha = 0.5;
     [self.view addSubview:self.waterView];
-
+    
 }
 
 

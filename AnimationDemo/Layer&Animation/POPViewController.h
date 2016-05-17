@@ -6,8 +6,8 @@
 //  Copyright © 2015年 Author. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface POPViewController : UIViewController
+@interface POPViewController : BaseViewController
 
 @end

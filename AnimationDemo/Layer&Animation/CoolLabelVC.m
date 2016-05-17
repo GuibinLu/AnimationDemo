@@ -54,6 +54,8 @@
     [self.view addSubview:self.cLabel];
 }
 
+
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     self.label.text = self.dataSource[arc4random()%12];
@@ -69,7 +71,7 @@
 - (CoolLabel *)label
 {
     if (!_label) {
-        _label = [[CoolLabel alloc]initWithFrame:CGRectMake(0, 100, DeviceSize.width, 200)];
+        _label = [[CoolLabel alloc]initWithFrame:CGRectMake(0, 100, DeviceSize.width, 40)];
         _label.font = [UIFont systemFontOfSize:30];
         _label.textAlignment = NSTextAlignmentCenter;
         _label.textColor = [UIColor whiteColor];
@@ -87,7 +89,7 @@
 - (CLabel *)cLabel
 {
     if (!_cLabel) {
-        _cLabel = [[CLabel alloc]initWithFrame:CGRectMake(0, 300, DeviceSize.width, 200)];
+        _cLabel = [[CLabel alloc]initWithFrame:CGRectMake(0, 300, DeviceSize.width, 40)];
         _cLabel.font = [UIFont systemFontOfSize:30];
         _cLabel.textAlignment = NSTextAlignmentCenter;
         _cLabel.textColor = [UIColor whiteColor];

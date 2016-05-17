@@ -13,6 +13,7 @@
 		4D752F1F1BF2F4040000FDBD /* ShapAndGradientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D752F1E1BF2F4040000FDBD /* ShapAndGradientVC.m */; };
 		4D752F221BF2F4540000FDBD /* ShapLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D752F211BF2F4540000FDBD /* ShapLoadingView.m */; };
 		4D752F2F1BF49DFC0000FDBD /* GradientLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D752F2E1BF49DFC0000FDBD /* GradientLoadingView.m */; };
+		4D8B44C91CEAE671009E865B /* FlodImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B44C81CEAE671009E865B /* FlodImageView.swift */; };
 		4DC53B261BF63138005C0282 /* POPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC53B251BF63138005C0282 /* POPViewController.m */; };
 		4DC932701BF71FAB0017047B /* EasingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9326F1BF71FAB0017047B /* EasingViewController.m */; };
 		4DC932761BF7208D0017047B /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DC932721BF7208D0017047B /* easing.c */; };
@@ -92,6 +93,7 @@
 		4D752F211BF2F4540000FDBD /* ShapLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapLoadingView.m; sourceTree = "<group>"; };
 		4D752F2D1BF49DFC0000FDBD /* GradientLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLoadingView.h; sourceTree = "<group>"; };
 		4D752F2E1BF49DFC0000FDBD /* GradientLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLoadingView.m; sourceTree = "<group>"; };
+		4D8B44C81CEAE671009E865B /* FlodImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlodImageView.swift; sourceTree = "<group>"; };
 		4DC53B241BF63138005C0282 /* POPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPViewController.h; sourceTree = "<group>"; };
 		4DC53B251BF63138005C0282 /* POPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPViewController.m; sourceTree = "<group>"; };
 		4DC9326E1BF71FAB0017047B /* EasingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingViewController.h; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		4D752F191BF2EA6D0000FDBD /* Layer&Animation */ = {
 			isa = PBXGroup;
 			children = (
+				4D8B44C41CEAE5D3009E865B /* FlodImageView */,
 				4D0437DD1CE71E9B0060D395 /* CoolLabel */,
 				8FFE77751C0C37A600143464 /* TextAnimation */,
 				8F51CDD91C08002F00F12698 /* CrumblingAnimation */,
@@ -302,6 +305,14 @@
 				8F01958C1BE884DE00CC02DB /* MaskViewController.m */,
 			);
 			name = Mask;
+			sourceTree = "<group>";
+		};
+		4D8B44C41CEAE5D3009E865B /* FlodImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4D8B44C81CEAE671009E865B /* FlodImageView.swift */,
+			);
+			name = FlodImageView;
 			sourceTree = "<group>";
 		};
 		4DC53B231BF63119005C0282 /* POP */ = {
@@ -706,6 +717,7 @@
 				4DC932701BF71FAB0017047B /* EasingViewController.m in Sources */,
 				4DC932761BF7208D0017047B /* easing.c in Sources */,
 				8F817FB51BFC4E4D00AC4B5B /* ReplicatorLayerViewController.m in Sources */,
+				4D8B44C91CEAE671009E865B /* FlodImageView.swift in Sources */,
 				8FFC84901C06D96300A8B019 /* DrawView.m in Sources */,
 				4DD630331BF6365E008FEEBD /* POPMath.mm in Sources */,
 				8F51CDDC1C08009D00F12698 /* CrumblingViewController.m in Sources */,

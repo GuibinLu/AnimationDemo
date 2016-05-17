@@ -8,6 +8,7 @@
 
 #import "POPViewController.h"
 #import "POP.h"
+#import "AnimationDemo-swift.h"
 
 @interface POPViewController ()
 
@@ -22,13 +23,22 @@
     [super viewDidLoad];
     [self initPOPLayer];
     [self performSelector:@selector(addPOPSpringAnimation) withObject:nil afterDelay:1.f];
+    [self initFlodImageView];
+
     
+}
+
+- (void)initFlodImageView
+{
+    FlodImageView *imageView = [[FlodImageView alloc]initWithFrame:CGRectMake((DeviceSize.width - 200)/2.0 , 150, 200, 200)];
+    imageView.image = [UIImage imageNamed:@"luffy"];
+    [self.view addSubview:imageView];
 }
 
 - (void)initPOPLayer
 {
     self.popLayer = [CALayer layer];
-    self.popLayer.frame = CGRectMake(100, 300, 100, 100);
+    self.popLayer.frame = CGRectMake(100, 500, 100, 100);
     self.popLayer.backgroundColor = [ UIColor redColor].CGColor;
     [self.view.layer addSublayer:self.popLayer];
     

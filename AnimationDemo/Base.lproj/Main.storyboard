@@ -297,7 +297,21 @@
                     <view key="view" contentMode="scaleToFill" id="NPm-3N-2Q6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手指滑动折叠图片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehh-l9-BKs">
+                                <rect key="frame" x="20" y="64" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ehh-l9-BKs" firstAttribute="leading" secondItem="NPm-3N-2Q6" secondAttribute="leadingMargin" constant="4" id="0qB-uU-Njx"/>
+                            <constraint firstItem="ehh-l9-BKs" firstAttribute="centerX" secondItem="NPm-3N-2Q6" secondAttribute="centerX" id="RsG-bx-qvb"/>
+                            <constraint firstItem="ehh-l9-BKs" firstAttribute="top" secondItem="Lsp-Ys-0CB" secondAttribute="bottom" id="lBL-25-7fk"/>
+                            <constraint firstItem="Hnu-mj-Iob" firstAttribute="top" secondItem="ehh-l9-BKs" secondAttribute="bottom" constant="582" id="zhE-en-jjI"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -359,7 +373,7 @@
                                     <constraint firstAttribute="width" constant="60" id="Erd-J1-N7g"/>
                                 </constraints>
                                 <state key="normal" title="3D旋转">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
