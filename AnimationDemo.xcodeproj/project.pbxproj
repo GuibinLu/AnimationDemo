@@ -10,6 +10,7 @@
 		4D0437DF1CE71EB80060D395 /* CoolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0437DE1CE71EB80060D395 /* CoolLabel.swift */; };
 		4D0437E21CE71F0F0060D395 /* CoolLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0437E11CE71F0F0060D395 /* CoolLabelVC.m */; };
 		4D0437E71CE727460060D395 /* CLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0437E61CE727460060D395 /* CLabel.m */; };
+		4D1544121CEE0D1100BABBE9 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1544111CEE0D1100BABBE9 /* UIView+IBDesignable.m */; };
 		4D752F1F1BF2F4040000FDBD /* ShapAndGradientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D752F1E1BF2F4040000FDBD /* ShapAndGradientVC.m */; };
 		4D752F221BF2F4540000FDBD /* ShapLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D752F211BF2F4540000FDBD /* ShapLoadingView.m */; };
 		4D752F2F1BF49DFC0000FDBD /* GradientLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D752F2E1BF49DFC0000FDBD /* GradientLoadingView.m */; };
@@ -87,6 +88,8 @@
 		4D0437E11CE71F0F0060D395 /* CoolLabelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolLabelVC.m; sourceTree = "<group>"; };
 		4D0437E51CE727460060D395 /* CLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLabel.h; sourceTree = "<group>"; };
 		4D0437E61CE727460060D395 /* CLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLabel.m; sourceTree = "<group>"; };
+		4D1544101CEE0D1100BABBE9 /* UIView+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBDesignable.h"; sourceTree = "<group>"; };
+		4D1544111CEE0D1100BABBE9 /* UIView+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBDesignable.m"; sourceTree = "<group>"; };
 		4D752F1D1BF2F4040000FDBD /* ShapAndGradientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapAndGradientVC.h; sourceTree = "<group>"; };
 		4D752F1E1BF2F4040000FDBD /* ShapAndGradientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapAndGradientVC.m; sourceTree = "<group>"; };
 		4D752F201BF2F4540000FDBD /* ShapLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapLoadingView.h; sourceTree = "<group>"; };
@@ -242,9 +245,19 @@
 			name = CoolLabel;
 			sourceTree = "<group>";
 		};
+		4D15440F1CEE0D0000BABBE9 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				4D1544101CEE0D1100BABBE9 /* UIView+IBDesignable.h */,
+				4D1544111CEE0D1100BABBE9 /* UIView+IBDesignable.m */,
+			);
+			name = IBDesignable;
+			sourceTree = "<group>";
+		};
 		4D752F191BF2EA6D0000FDBD /* Layer&Animation */ = {
 			isa = PBXGroup;
 			children = (
+				4D15440F1CEE0D0000BABBE9 /* IBDesignable */,
 				4D8B44C41CEAE5D3009E865B /* FlodImageView */,
 				4D0437DD1CE71E9B0060D395 /* CoolLabel */,
 				8FFE77751C0C37A600143464 /* TextAnimation */,
@@ -704,6 +717,7 @@
 				4DD630301BF6365E008FEEBD /* POPDecayAnimation.mm in Sources */,
 				4DD630271BF6365E008FEEBD /* POPAnimation.mm in Sources */,
 				4D0437E71CE727460060D395 /* CLabel.m in Sources */,
+				4D1544121CEE0D1100BABBE9 /* UIView+IBDesignable.m in Sources */,
 				8F0195871BE883FD00CC02DB /* BaseViewController.m in Sources */,
 				4DD630281BF6365E008FEEBD /* POPAnimationEvent.mm in Sources */,
 				4DD6302E1BF6365E008FEEBD /* POPCGUtils.mm in Sources */,
