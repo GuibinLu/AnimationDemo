@@ -18,8 +18,6 @@
 
 @implementation DrawView
 
-
-
 - (void)clean
 {
 

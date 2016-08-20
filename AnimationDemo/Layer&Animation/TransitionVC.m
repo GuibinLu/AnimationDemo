@@ -49,7 +49,7 @@
     
     self.imageView.image = [UIImage imageNamed:self.imageNames[a++%3]];
 
-
+    
 //    [CATransaction begin];//开启一个新的事物项 必须每次都要开启这么一个新的动画行为 否则会影响到转场动画
 //    [CATransaction setDisableActions:YES];//关闭隐式动画
 //    [CAAnimation code];
